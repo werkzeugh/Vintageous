@@ -75,7 +75,7 @@ def _init_vintageous(view):
     start_in_insert = state.settings.view['vintageous_start_in_insert_mode']
     if start_in_insert:
         state.enter_insert_mode()
-          return
+        return
 
     # Non-standard user setting.
     reset = state.settings.view['vintageous_reset_mode_when_switching_tabs']
